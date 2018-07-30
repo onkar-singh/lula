@@ -6,7 +6,7 @@
 .w3-panel{padding:0.01em 16px}.w3-panel{padding:2px 2px 2px 20px;background-color: white;
     border: solid #c8c8c8;border-width: 1px 0px 1px 0px;}
 
-.bb {background: url(magebtn.png) no-repeat scroll 0 0 transparent;color: #FFFFFF;cursor: pointer;float: left;font-weight: bold;height: 47px;
+.bb {background: url(imagebtn.png) no-repeat scroll 0 0 transparent;color: #FFFFFF;cursor: pointer;float: left;font-weight: bold;height: 47px;
     line-height: 48px;margin: 3px;text-align: center;width: 50px;}
 
 .b1{background-position: -4px -5px;color: #fff;} /*1 answered the question.*/
