@@ -1,0 +1,86 @@
+
+.mk{background-color: white;padding:0px 5px 0px 5px;font-size: 18px;color: red;}
+.r{float: right!important;}
+/*a {color: inherit;}*/
+.w3-panel:after,.w3-panel:before{content:"";display:table;clear:both}
+.w3-panel{padding:0.01em 16px}.w3-panel{padding:2px 2px 2px 20px;background-color: white;
+    border: solid #c8c8c8;border-width: 1px 0px 1px 0px;}
+
+.bb {background: url(magebtn.png) no-repeat scroll 0 0 transparent;color: #FFFFFF;cursor: pointer;float: left;font-weight: bold;height: 47px;
+    line-height: 48px;margin: 3px;text-align: center;width: 50px;}
+
+.b1{background-position: -4px -5px;color: #fff;} /*1 answered the question.*/
+.b2{background-position: -56px -1px;color: #fff;} /*2 not answered the question.*/
+.b3{background-position: -108px -2px;color: #fff;} /*3 NOT ans the ques,but marked the ques for review.*/
+.b4{background-position: -157px -2px;color: #000;}   /*4 not visited the question yet.*/
+.b5{background-position: -205px -2px;color: #fff;}
+.b6{background-position: -204px -49px;color: #fff;} /*6 answered the question, but marked it for review.*/
+
+.w3-modal{z-index:3;display:none;padding-top:100px;position:fixed;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:rgb(0,0,0);background-color:rgba(0,0,0,0.4)}
+.w3-modal-content{margin:auto;background-color:#fff;position:relative;padding:0;outline:0;width:600px}
+.w3-container:after,.w3-container:before,
+@media (max-width:768px){.w3-modal-content{width:500px}.w3-modal{padding-top:50px}}
+@media (min-width:993px){.w3-modal-content{width:900px}.w3-hide-large{display:none!important}.w3-sidebar.w3-collapse{display:block!important}}
+.w3-display-topright{position:absolute;right:0;top:0}
+input[type=text], select, textarea {width: 100%;padding: 12px;border: 1px solid #ccc;border-radius: 4px;box-sizing: border-box;margin-top: 6px;margin-bottom: 16px;resize: vertical;}
+input[type=submit] {background-color: #4CAF50;color: white;padding: 12px 20px;border: none;border-radius: 4px;cursor: pointer;}
+input[type=submit]:hover {background-color: #45a049;}
+.container {border-radius: 5px;background-color: #f2f2f2;padding: 20px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html, body { margin: 0; padding: 0; width: 100%; height: 100%;}
+.scl{max-height: 500px;overflow-x: hidden;overflow-y: auto;}
+.wrapper1 { width: 100%; height: 100%; top: 0px;}
+.container2 { width: 100%; height: 70%; }
+.table {display: table;width: 100%;height: 100%;}
+.row {display: table-row;width: 100%;}
+.cell1, .cell2 {display: table-cell;height: 100%;}
+.cell1 {float: left;width: 80%;}
+.cell2 {float: right;background:#e8e8e8;width: 20%;}
+
+.tag{width: 20px;padding: 20px 20px 20px 20px;margin: 10px 6px 0px 0px;text-align: center;display: 
+    inline-block;background-color: #000;color: #fff;}
+
+.btn{ border: 1px solid #c8c8c8;border-radius: 2px;cursor: pointer;display: inline-block;
+    font-size: 14px;padding: 10px 20px;text-align: center;vertical-align: middle;
+    background: #c8c8c8;color: black;
+    white-space: nowrap;margin: 5px 5px 5px 5px;-webkit-appearance: none;-moz-appearance: none;}
+
+.success:hover {background-color: #3b5998;color:#FFFFFF;}
+.info:hover {background: #3b5998;color:#FFFFFF;}
+
+.default:hover {background: #3b5998;color:#FFFFFF;}
+.panel{background-color: #3b5998;color:#FFFFFF;}
+.pan{border: 1px solid #c8c8c8;height: 50%;}
+
+.btn1{cursor: pointer;display: inline-block;background-color: #fff;
+    color:blue;padding: 5px 10px 5px 10px;border-radius: 2px;font-size: 16px;}
+.btn1:hover {background: #FFF;color:#000;}
+
+span span {animation:span 0.9s infinite;}
+@keyframes span {
+    0%{  color: #000;    }
+    49%{ color: transparent; }
+    50%{ color: transparent; }
+    99%{ color:transparent;  }
+    100%{color: #000;    }
+}
+
+

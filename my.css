@@ -1,0 +1,23 @@
+* {box-sizing: border-box;}
+
+.clearfix::after {content: "";clear: both;display: table;}
+
+.scl{max-height: 500px;overflow-x: hidden;overflow-y: auto;}
+
+
+.pd1,.p1,.p2,.p21,.p3{padding: 0px 5px 0px 10px;}
+
+
+.p1{background-color: #3b5998;color:#FFFFFF;border: 3px solid red;}
+
+.p2{float: left;width: 73%;border: 3px solid black;}
+
+.p21{float: right;width: 27%;border: 3px solid yellow;}
+
+.p3{background-color: #3b5998;color:#FFFFFF;border: 3px solid black;}
+
+
+.tag{width: 65px;padding: 20px 20px 20px 20px;margin: 10px 10px 2px 0px;text-align: center;display: 
+	inline-block;background-color: #000;color: #fff;}
+
+.st1{position: sticky;width: 100%;color: #fff;background-color: #f44336;padding: 5px 5px 5px 5px;}
